@@ -10,7 +10,7 @@ profitti = [1.1, 1.125, 1.15]
 N_anni = 2
 
 #intervallo mesi di osservazione
-jmp = 3
+jmp = 1
 
 for prof in profitti:
     print("Con un profitto del",round((prof-1),3)*100,"%")
